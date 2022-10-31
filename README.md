@@ -72,11 +72,6 @@ Players must defeat one at the end of each dungeon.
 - Goblin looter: Steals coins from the player and takes life from him
 - Ice sorceress: Throws a projectile that does damage to the player
 
-In the render file, there is a build to play in multiplayer and a build to play solo.
-
-Thank you for reading everything!
-
-
 ## Game keybinding
 
 - Movement keys: **ZQSD**
