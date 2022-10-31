@@ -27,9 +27,9 @@ Authors:
 
 ### Abilities and skill tree
 
-- Abilities: Choice of 3 abilities among 6 different abilities thanks to a skill tree. 
+Choice of 3 abilities among 6 different abilities thanks to a skill tree. 
   -  Choosing a skill in one of the trees will block the other half of the will block the other half of the tree. Skills can be upgraded with skill points. Levels are gained by killing enemies. 
-  A total of **42 abilities and upgrades** are available.
+A total of **42 abilities and upgrades** are available.
 
 ### NPCs
 
