@@ -1,6 +1,6 @@
 # SvissOdyssey
 
-A 2D roguelike game made at the end of the first year at UCA.
+A 2D roguelike game made at the end of the first year at UCA. In this multiplayer game, players will have the objective of reaching the final boss, going through various rooms full of monsters to obtain loot and experience and solving puzzles.
 
 Authors: 
 - Farouk AB
