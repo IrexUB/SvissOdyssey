@@ -3,11 +3,11 @@
 A 2D roguelike game made at the end of the first year at UCA.
 
 Authors: 
-- Farouk Ab
-- Mathis Ch
-- Romain Ve
-- Colin Fe
-- Enzo Sa
+- Farouk AB
+- Mathis CH
+- Romain VE
+- Colin FE
+- Enzo SA
 
 ## Implemented features: 
 - Top down movement 
