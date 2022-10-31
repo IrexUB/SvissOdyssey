@@ -62,7 +62,7 @@ Players must defeat one at the end of each dungeon.
 
 ### Enemies
 9 different enemies:
-- Zombie: Simple enemy, taps the player when he sees him.
+- Zombie: Simple enemy, hits the player when he sees him.
 - Skeleton: Throws bones when it sees the player
 - Kamikaze: Explodes on contact with the player
 - Goblin: Steals coins from the player and runs away, after a random time, he disappears
