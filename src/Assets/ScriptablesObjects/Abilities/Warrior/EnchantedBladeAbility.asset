@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35846a6d36e14546a3dbbbb2f10fcec, type: 3}
+  m_Name: EnchantedBladeAbility
+  m_EditorClassIdentifier: 
+  m_name: 
+  m_description: "Inflige maintenant 150% de tes d\xE9g\xE2ts d\u2019attaque \xE0
+    courte port\xE9e en cercle autour de toi en d\xE9g\xE2ts physique et lance un
+    deuxi\xE8me tour infligeant 75% de tes d\xE9g\xE2ts d\u2019attaque en d\xE9g\xE2ts
+    \xE9l\xE9mentaires aux ennemis touch\xE9s."
+  m_sprite: {fileID: 21300000, guid: d8b90f80b8f8f8747adf0da1667bd531, type: 3}
+  m_cooldownTime: 1.75
+  m_activeTime: 0.1
+  m_isReactivable: 0
+  m_reactivationStack: 0
+  m_reactivationCooldownIncrease: 0
+  m_attackRadius: 2
+  m_aoePrefab: {fileID: 5140256749613607318, guid: bd8d16af926ee2a4693c065fc693c5d7, type: 3}
+  m_secondAoePrefab: {fileID: 3466534321591792584, guid: 34cff5f56dc86cd4791c3f76229e8f68, type: 3}

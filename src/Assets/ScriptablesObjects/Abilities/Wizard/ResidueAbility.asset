@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3786ef8bb78339458a04398eaa62666, type: 3}
+  m_Name: ResidueAbility
+  m_EditorClassIdentifier: 
+  m_name: Residue Ability
+  m_description: "Lance une fiole qui s\u2019\xE9crase au sol laissant une flaque
+    de poison qui persiste pendant 5 secondes. Les ennemis pr\xE9sents dans la flaque
+    subissent 75% de vos d\xE9g\xE2ts \xE9l\xE9mentaires par seconde. (9s de CD)\r\nL\u2019alli\xE9
+    pr\xE9sent dans la flaque r\xE9g\xE9n\xE8re 5% des ses PV max par seconde.\r\nLes
+    ennemis et l\u2019alli\xE9 marchant dans la flaque subissent en plus les effets
+    2s apr\xE8s avoir quitt\xE9 la flaque."
+  m_sprite: {fileID: 21300000, guid: 327ed92dd3a9ff941bf8f2aebe69d856, type: 3}
+  m_cooldownTime: 9
+  m_activeTime: 5
+  m_isReactivable: 0
+  m_reactivationStack: 0
+  m_reactivationCooldownIncrease: 0
+  m_puddleRadius: 2
+  m_poisonPuddleAoe: {fileID: 7804031833006082553, guid: 6d23224a84e560840bdc70cfc3d7ce44, type: 3}
+  m_regenerationBuff: {fileID: 11400000, guid: 8332c20e34bceb2428bd072bb6aba62d, type: 2}
+  m_poisonDot: {fileID: 11400000, guid: 1f6e495c6d0ec3f43a426fb9107053aa, type: 2}

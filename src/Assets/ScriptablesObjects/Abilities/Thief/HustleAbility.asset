@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb10485ecfd6abd4aa7cae61729e0a2b, type: 3}
+  m_Name: HustleAbility
+  m_EditorClassIdentifier: 
+  m_name: 
+  m_description: "Fonce dans une direction \xE0 courte distance. (5s de CD)\nLes
+    ennemis que vous touchez pendant la course subissent 80% de vos d\xE9g\xE2ts
+    physiques."
+  m_sprite: {fileID: 21300000, guid: d3d0ee58c95459940bdb7c7b960af7e5, type: 3}
+  m_cooldownTime: 5
+  m_activeTime: 0.1
+  m_isReactivable: 0
+  m_reactivationStack: 0
+  m_reactivationCooldownIncrease: 0
+  m_dashVelocity: 60

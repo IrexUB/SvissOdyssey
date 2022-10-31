@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c120a78386e14d446837b38513ce4f6c, type: 3}
+  m_Name: "fl\xE8che"
+  m_EditorClassIdentifier: 
+  id: 5
+  GFX: {fileID: 5256375046032587852, guid: d3b929ab7c3154c4f8c1abb6ac25cd7a, type: 3}
+  nom: "Fl\xE8che"
+  description: +50% Attaque Physique, +15% Vitesse
+  rarete: 2
+  isUnique: 0
+  isPicked: 0
+  cost: 40
+  AP: 50
+  AE: 0
+  DEF: 0
+  DEF_ELE: 0
+  SPEED: 15
+  CDR: 0
+  VAMP: 0
+  HP: 0

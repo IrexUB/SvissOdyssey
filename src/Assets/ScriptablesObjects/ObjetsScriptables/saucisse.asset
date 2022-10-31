@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c120a78386e14d446837b38513ce4f6c, type: 3}
+  m_Name: saucisse
+  m_EditorClassIdentifier: 
+  id: 3
+  GFX: {fileID: 7565506305777868821, guid: 7b6cbb77261fabb4d9af3f0b8b4467c2, type: 3}
+  nom: Saucisse
+  description: -5% Attaque Physique, -5% Attaque Elementaire, -5% Defense Physique,
+    -5% Defense Physique, -5% Vitesse, -5% PV, +50% Vampirisme
+  rarete: 1
+  isUnique: 0
+  isPicked: 0
+  cost: 35
+  AP: -5
+  AE: -5
+  DEF: -5
+  DEF_ELE: -5
+  SPEED: -5
+  CDR: -5
+  VAMP: 50
+  HP: -5

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66b7a76b1251ace46ade7d4b28698027, type: 3}
+  m_Name: New Fireball Ability
+  m_EditorClassIdentifier: 
+  m_name: 
+  m_description: "Lance une boule de feu qui inflige 100% de tes d\xE9g\xE2ts \xE9l\xE9mentaires
+    de base au premier ennemi touch\xE9. (0.6s de CD)"
+  m_sprite: {fileID: 21300000, guid: de328746463d6f34ba7887dbaf71083c, type: 3}
+  m_cooldownTime: 0.6
+  m_activeTime: 0.1
+  m_isReactivable: 0
+  m_reactivationStack: 0
+  m_reactivationCooldownIncrease: 0
+  m_fireballPrefab: {fileID: 3572365968927590354, guid: 34b222658eaafaa4c981412fc1da606b, type: 3}
+  m_fireballVelocity: 15

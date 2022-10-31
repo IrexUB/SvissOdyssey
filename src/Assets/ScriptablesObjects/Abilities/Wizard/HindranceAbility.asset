@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688c3646c1f041d4ca35e6296bae777b, type: 3}
+  m_Name: HindranceAbility
+  m_EditorClassIdentifier: 
+  m_name: 
+  m_description: "Lance une fiole qui s\u2019\xE9crase au sol laissant une flaque
+    de poison qui persiste pendant 9 secondes. Les ennemis pr\xE9sents dans la flaque
+    subissent 85% de vos d\xE9g\xE2ts \xE9l\xE9mentaires par seconde et sont ralentis
+    de 35%. (9s de CD)"
+  m_sprite: {fileID: 21300000, guid: fd51239e76e042c4ca2316f9a5e47a0d, type: 3}
+  m_cooldownTime: 9
+  m_activeTime: 9
+  m_isReactivable: 0
+  m_reactivationStack: 0
+  m_reactivationCooldownIncrease: 0
+  m_puddleRadius: 2
+  m_poisonPuddleAoe: {fileID: 7804031833006082553, guid: 6d23224a84e560840bdc70cfc3d7ce44, type: 3}
+  m_hindranceDebuff: {fileID: 11400000, guid: 44b4394351d39ee49a2096c5aef82238, type: 2}

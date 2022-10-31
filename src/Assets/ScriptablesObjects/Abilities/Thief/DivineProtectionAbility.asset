@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd163aa7674a1684893060d8c84803d1, type: 3}
+  m_Name: DivineProtectionAbility
+  m_EditorClassIdentifier: 
+  m_name: 
+  m_description: "Fonce dans une direction \xE0 courte distance puis vous rend insensible
+    \xE0 tous les d\xE9g\xE2ts pendant 5 secondes. (25s de CD)\nRecharge tous vos
+    d\xE9lais de comp\xE9tences (sauf celui-l\xE0) lors de l\u2019activation.\nLes
+    ennemis que vous touchez pendant la course subissent 80% de vos d\xE9g\xE2ts
+    physiques."
+  m_sprite: {fileID: 21300000, guid: 8aead721264f5384783528b350e6987f, type: 3}
+  m_cooldownTime: 25
+  m_activeTime: 0.1
+  m_isReactivable: 0
+  m_reactivationStack: 0
+  m_reactivationCooldownIncrease: 0
+  m_dashVelocity: 60
+  m_invicibilityBuff: {fileID: 11400000, guid: 6a909e56b7a132240a77ebd8e7a03405, type: 2}

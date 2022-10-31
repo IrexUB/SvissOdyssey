@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c1243263ef86f45bc6112f1d2b1339, type: 3}
+  m_Name: StealthAbility
+  m_EditorClassIdentifier: 
+  m_name: 
+  m_description: "Inflige 50% de vos d\xE9g\xE2ts d\u2019attaque \xE0 la premi\xE8re
+    cible touch\xE9e. (0.2s de CD)\nVous avez 10% de chances d\u2019infliger \xE0
+    la place 75% de vos d\xE9g\xE2ts d\u2019attaque.\nSi vous attaquez un ennemi
+    (Boss exclus) qui est en dessous de 15% de ses PV max, vous le tuez imm\xE9diatement.
+    Lorsque vous tuez un ennemi vous devenez compl\xE8tement invisible aux yeux des
+    ennemis (Boss exclus) pendant 5 secondes. Si vous attaquez ou lancez une comp\xE9tence
+    pendant ce d\xE9lai, vous n\u2019\xEAtes plus invisibles."
+  m_sprite: {fileID: 21300000, guid: d6e13480b1f3b124ba6477b4c010952e, type: 3}
+  m_cooldownTime: 0.2
+  m_activeTime: 0
+  m_isReactivable: 0
+  m_reactivationStack: 0
+  m_reactivationCooldownIncrease: 0
+  m_attackRadius: 0.15
+  m_invisibility: {fileID: 11400000, guid: cb7f5ca100ba7234fb1e671bfdf329d5, type: 2}

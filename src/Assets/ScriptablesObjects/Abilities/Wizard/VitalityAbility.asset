@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321029c105b18ae4587e53a491cdefaa, type: 3}
+  m_Name: VitalityAbility
+  m_EditorClassIdentifier: 
+  m_name: 
+  m_description: "Lance une boule de feu qui inflige 100% de tes d\xE9g\xE2ts \xE9l\xE9mentaires
+    de base au premier ennemi touch\xE9, puis il perd 5% de ses PV max par seconde
+    pendant 5 secondes. Si la boule devait toucher un alli\xE9, il r\xE9g\xE9n\xE8re
+    20% de votre r\xE9sistance \xE9l\xE9mentaire en PV et gagne 50% de ses PV max
+    en PV suppl\xE9mentaires pendant 5 secondes (non cumulable). (0.6s de CD)"
+  m_sprite: {fileID: 21300000, guid: 8b5e81f44c4e7e64fbccf0b8be64e2d2, type: 3}
+  m_cooldownTime: 0
+  m_activeTime: 0
+  m_isReactivable: 0
+  m_reactivationStack: 0
+  m_reactivationCooldownIncrease: 0
+  m_fireballPrefab: {fileID: 3572365968927590354, guid: 34b222658eaafaa4c981412fc1da606b, type: 3}
+  m_fireballVelocity: 15
+  m_burnDot: {fileID: 11400000, guid: 162f94649935c6b44a3d47befda08815, type: 2}
+  m_healthRegeneration: {fileID: 0}

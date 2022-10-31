@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c120a78386e14d446837b38513ce4f6c, type: 3}
+  m_Name: bouteilleDeSang
+  m_EditorClassIdentifier: 
+  id: 0
+  GFX: {fileID: 3860129096139942004, guid: 3a1bad5b9d466c94a907148891dc2138, type: 3}
+  nom: Bouteille de Sang
+  description: -10% PV, +35% Vampirisme
+  rarete: 1
+  isUnique: 0
+  isPicked: 0
+  cost: 35
+  AP: 0
+  AE: 0
+  DEF: 0
+  DEF_ELE: 0
+  SPEED: 0
+  CDR: 0
+  VAMP: 35
+  HP: -10

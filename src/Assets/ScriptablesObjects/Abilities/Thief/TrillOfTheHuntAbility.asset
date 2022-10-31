@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87ee36ff4cebd4143bc39b88bce19380, type: 3}
+  m_Name: TrillOfTheHuntAbility
+  m_EditorClassIdentifier: 
+  m_name: 
+  m_description: "Lance un couteau en ligne droite qui inflige 50% de vos d\xE9g\xE2ts
+    d\u2019attaque \xE0 la premi\xE8re cible touch\xE9e. (0.4s de CD). Si vous lancez
+    3 couteaux cons\xE9cutifs sur un ennemi sans toucher d\u2019autres ennemis, vous
+    le tuez imm\xE9diatement (ne fonctionne pas sur les Boss). Lorsque vous tuez
+    un ennemi, vous gagnez 30% de vitesse de d\xE9placement pendant 2 secondes et
+    rechargez tous vos d\xE9lais de r\xE9cup."
+  m_sprite: {fileID: 21300000, guid: 3ad0e50b13231374898ea6edbadee422, type: 3}
+  m_cooldownTime: 0.4
+  m_activeTime: 0.1
+  m_isReactivable: 0
+  m_reactivationStack: 0
+  m_reactivationCooldownIncrease: 0
+  m_knifePrefab: {fileID: 7838877032103053466, guid: 9e8d478dca30f1945b7dd8b0f5f60b38, type: 3}
+  m_knifeVelocity: 15
+  m_speedBuff: {fileID: 11400000, guid: 385f48f02ad5cdb4aa1343702d31925e, type: 2}

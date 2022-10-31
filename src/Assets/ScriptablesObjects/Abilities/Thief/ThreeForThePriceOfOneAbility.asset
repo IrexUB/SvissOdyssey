@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 303cc99deff7f9c4a9b9f645a9414981, type: 3}
+  m_Name: ThreeForThePriceOfOneAbility
+  m_EditorClassIdentifier: 
+  m_name: 
+  m_description: "Vous pouvez r\xE9activer la comp\xE9tence avant qu\u2019elle ne
+    soit recharg\xE9e jusqu\u2019\xE0 2 fois suppl\xE9mentaires, mais chaque activation
+    cons\xE9cutive augmente le temps de rechargement de 3 (total 8s)."
+  m_sprite: {fileID: 21300000, guid: bdb03928fdcbab249b3f35975ee46eed, type: 3}
+  m_cooldownTime: 2
+  m_activeTime: 0.1
+  m_isReactivable: 1
+  m_reactivationStack: 2
+  m_reactivationCooldownIncrease: 3
+  m_dashVelocity: 60

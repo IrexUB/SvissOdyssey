@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d1cb2bb3cb5584fbe1c6e45197fc95, type: 3}
+  m_Name: ExplosivenessAbility
+  m_EditorClassIdentifier: 
+  m_name: 
+  m_description: "Lance une boule de feu qui inflige 100% de tes d\xE9g\xE2ts \xE9l\xE9mentaires
+    et qui explose au premier ennemi touch\xE9, puis tous les ennemis touch\xE9s
+    perdent 5% de leurs PV max par seconde pendant 5 secondes. (1.2s de CD)"
+  m_sprite: {fileID: 21300000, guid: 28a79535fef2ed441b48fd8e46be7020, type: 3}
+  m_cooldownTime: 1.2
+  m_activeTime: 0.1
+  m_isReactivable: 0
+  m_reactivationStack: 0
+  m_reactivationCooldownIncrease: 0
+  m_fireballPrefab: {fileID: 3572365968927590354, guid: 34b222658eaafaa4c981412fc1da606b, type: 3}
+  m_fireballVelocity: 15
+  m_burnDot: {fileID: 11400000, guid: 162f94649935c6b44a3d47befda08815, type: 2}
+  m_explosionAoe: {fileID: 4657565273292254487, guid: 41785740c50d36b409f5126f16cbbe69, type: 3}
+  m_explosionRadius: 2

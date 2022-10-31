@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 523fd3125dc33e040b568dd60d3e0981, type: 3}
+  m_Name: SharpBladeAbility
+  m_EditorClassIdentifier: 
+  m_name: 
+  m_description: "Inflige maintenant 150% de tes d\xE9g\xE2ts d\u2019attaque \xE0
+    courte port\xE9e en cercle autour de toi"
+  m_sprite: {fileID: 21300000, guid: 1e547fcd44d453347bd296b9781ad82d, type: 3}
+  m_cooldownTime: 1
+  m_activeTime: 0.1
+  m_isReactivable: 0
+  m_reactivationStack: 0
+  m_reactivationCooldownIncrease: 0
+  m_attackRadius: 2
+  m_aoePrefab: {fileID: 3466534321591792584, guid: 34cff5f56dc86cd4791c3f76229e8f68, type: 3}
