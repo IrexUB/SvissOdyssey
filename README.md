@@ -1,5 +1,7 @@
 # SvissOdyssey
 
+A 2D roguelike game made at the end of the first year at UCA.
+
 Authors: 
 - Farouk Abidi
 - Mathis Chalandard
